@@ -1,4 +1,54 @@
-.h {
-  color: blue;
-  font-family: fantasy;
+body {
+  background-color: rgba(200, 250, 250, 0.5);
+
+}
+
+.circle h1 {
+  position: fixed;
+  left:17px;
+  top:-3px;
+  color: black;
+  left:17px;
+}
+
+
+.emblem{
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transform: rotate(15deg);
+  transform: skewY(20deg);
+
+}
+
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  padding-bottom: 500px;
+  padding-top:300px;
+  top:0px;
+  background-color: rgba(200, 250, 200, 0.9);
+  opacity: 1;
+  padding-right: 115px;
+}
+
+.circle {
+  position: fixed;
+  border: 2px solid #f84342;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  top:10px;
+  left:10px;
+}
+
+.navbar ul {
+  position: fixed;
+  top: 200px;
+  list-style-type: none;
+  letter-spacing: 1px;
+  line-height: 45px;
+  cursor: pointer;
+  margin: -10px;
 }
