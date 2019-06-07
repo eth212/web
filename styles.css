@@ -51,8 +51,14 @@ body {
   letter-spacing: 1px;
   line-height: 45px;
   cursor: pointer;
-  margin: -10px;
+  margin: -25px;
 
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Special Elite', cursive;
 }
 
 #bike {
@@ -104,7 +110,10 @@ body {
 }
 
 #menu {
-  color:red;
+  color:black;
+  font-family: "Special Elite", cursive;
+  size:68px;
+  cursor:default;
 }
 
 #box {
