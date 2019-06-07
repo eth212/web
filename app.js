@@ -23,8 +23,3 @@ function back(){
 function homefix(){
   home.style.fontWeight = 'bold';
 }
-
-let box = document.getElementById("box");
-box.addEventListener('mouseover', change);
-box.addEventListener('mouseout', back);
-window.onload =  homefix;

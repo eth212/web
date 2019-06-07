@@ -115,11 +115,3 @@ body {
   size:68px;
   cursor:default;
 }
-
-#box {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  position: absolute;
-  left: 400px;
-}
