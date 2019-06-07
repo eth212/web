@@ -52,3 +52,51 @@ body {
   cursor: pointer;
   margin: -10px;
 }
+
+#bike {
+  position: fixed;
+  top: 550px;
+  height: 150px;;
+  width: 150px;
+  left:230px;
+}
+
+.line {
+  border-top: 6px solid black;
+  width: 1420px;
+  position: absolute;
+  left:115px;
+  top:698px;
+}
+
+#tree {
+  position: fixed;
+  top: 550px;
+  height: 150px;;
+  width: 150px;
+  left:680px;
+}
+
+#building {
+  position: fixed;
+  top: 495px;
+  height: 200px;;
+  width: 200px;
+  left:1230px;
+}
+
+#sun {
+  position: fixed;
+  top: 450px;
+  height: 100px;;
+  width: 100px;
+  left:430px;
+}
+
+#cloud {
+  position: fixed;
+  top: 450px;
+  height: 90px;;
+  width: 130px;
+  left:1050px;
+}
