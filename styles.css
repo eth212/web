@@ -115,3 +115,9 @@ body {
   size:68px;
   cursor:default;
 }
+
+#typing{
+  position: absolute;
+  left: 200px;
+  color: red;
+}
