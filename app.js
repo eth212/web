@@ -1,4 +1,38 @@
+//routing
+window.onload = function(){
+  console.log("dom has loaded");
+  //create the router constructor
+  let router = function(name, routes){
+    return {
+      name: name,
+      routes: routes
+    }
+  };
+let myFirstRouter = new Router('myFirstRouter',
+[{
+  path: '/',
+  name: 'root'
+},
+{
+  path:'/home',
+  name:'home'
+},
+{
+  path: '/about',
+  name: 'About'
+},
+{
+  path: '/projects',
+  name: 'Projects'
+},
+{
+  path: '/contact',
+  name: 'Contact'
+},
+]);
 
+console.log(myFirstRouter);
+};
 // creating the typing effect
 let target = document.getElementById("typing");
 let text = 'Hi, my name is Ethan and I am a Developer';
