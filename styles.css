@@ -130,3 +130,7 @@ body {
   left: 200px;
   color: red;
 }
+#view {
+  position: absolute;
+  left: 300px;
+}
