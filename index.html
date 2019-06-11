@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-<link rel="stylesheet" href="styles.css" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Russo+One|Special+Elite&display=swap" rel="stylesheet"/>
-  <meta charset="utf-8">
-  <title>Ethan Bonnardeaux</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Special+Elite&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/b112b4b98f.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Ethan</title>
+  </head>
   <body>
-    <div id="view"></div>
-    <div class="sidebar">
-      <div class="navbar sidebar">
+    <section id="pageChange">
+      <div class="intro">
         <ul>
-          <li id="menu">Menu</li>
-          <li id="home"><a href="/web/#index">Home</a></li>
-          <li id="about"><a href="#about">About</a></li>
-          <li id="projects"><a href="#projects">Projects</a></li>
-          <li id="contact"><a href="#contact">Contact</a></li>
-          <li id="resume"><a href="Resume_Ethan.pdf" target ="_blank">Resume</a></li>
+          <li>
+            <a href="#home">
+            <i class="fa fa-home" ></i>
+              <span> - Home </span>
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+            <i class="fa fa-address-card"></i>
+              <span> - About </span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+            <i class="fa fa-code-fork" aria-hidden="true"></i>
+              <span> - Projects </span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span> - Contact </span>
+            </a>
+          </li>
+          <li>
+            <a href="Resume_Ethan.pdf" target="_blank">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+              <span> - Resume </span>
+            </a>
+          </li>
         </ul>
-      </div>
-      <div class="circle">
-        <div class="emblem">
-          <h1 >EB</h1>
-        </div>
-      </div>
     </div>
-    <section id = "pageChange">
-      <div id="typing">
-        <h1></h1>
-      </div>
     </section>
     <script type="text/javascript">
     class IndexView {
@@ -57,6 +71,7 @@
 
     </script>
     <script src="/hashRouter.js"></script>
-    <! app.js needs to be scripted here>
+    <script src="app.js" type="text/javascript"></script>
+
   </body>
 </html>
