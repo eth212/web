@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-  <link rel="stylesheet" href="styles.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Russo+One|Special+Elite&display=swap" rel="stylesheet"/>
-  <script type="text/javascript">
-
-    class IndexView {
-      constructor(){
-        window.addEventListener("hashchange", e => this.onRouteChange(e));
-        this.slot = document.querySelector('#pageChange');
-      }
-      onRouteChange(e) {
-        const hashLocation = window.location.hash.substring(1);
-        console.log(hashLocation);
-        this.loadContent(hashLocation);
-      }
-
-      loadContent(uri){
-        var contentUri = `${uri}.html`;
-        console.log(contentUri);
-        let test = fetch(contentUri).then(r => r.text()).then(text => console.log(text)) //.then(content => this.updateSlot(content));
-
-      }
-
-      updateSlot(content){
-      divide.innerHTML = content;
-      }
-    }
-    new IndexView();
-  </script>
-    <meta charset="utf-8">
-    <title>Ethan Bonnardeaux</title>
-  </head>
+<head>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Russo+One|Special+Elite&display=swap" rel="stylesheet"/>
+  <meta charset="utf-8">
+  <title>Ethan Bonnardeaux</title>
+</head>
   <body>
     <div id="view"></div>
     <div class="sidebar">
@@ -62,6 +36,10 @@
         <h1></h1>
       </div>
     </section>
+    <script type="text/javascript">
+  
+    </script>
+    <script src="/hashRouter.js"></script>
     <! app.js needs to be scripted here>
   </body>
 </html>
