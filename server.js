@@ -14,12 +14,3 @@ const PORT =  process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT} `);
 })
-
-app.get('/', function(req, res, next) {
-  res.send("Message");
-
-})
-
-app.get('/home', function(req, res, next)  {
-  res.send('hey');
-})
