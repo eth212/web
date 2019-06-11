@@ -6,7 +6,7 @@ app.use(morgan('dev'));
 
 
 app.get('*', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/home.html');
 })
 
 const PORT =  process.env.PORT || 3000;
