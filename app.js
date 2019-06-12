@@ -1,6 +1,6 @@
 
 // creating the typing effect
-let target = document.getElementById("typing");
+let target = document.getElementById("view");
 let text = 'Hi, my name is Ethan and I am a Developer';
 let i=0;
 
