@@ -62,7 +62,7 @@ body {
 .navbar a{
   text-decoration: none;
   color: black;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Hammersmith', sans-serif;
 }
 
 #bike {
@@ -240,4 +240,8 @@ body {
 
 .intro ul li:hover a:after {
   background: rgba(200, 250, 200, 0.9);
+}
+
+#pageChange {
+  z-index: 10;
 }
