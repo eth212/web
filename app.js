@@ -1,7 +1,7 @@
 
 // creating the typing effect
 let target = document.getElementById("view");
-let text = 'Hi, my name is Ethan and I am a Developer';
+let text = 'Hi, my name is Ethan and I am a Developer check';
 let i=0;
 
 function typer(){
