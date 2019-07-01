@@ -128,6 +128,7 @@ body {
 #view {
   position: absolute;
   left: 300px;
+  z-index: auto;
 }
 
 .intro * {

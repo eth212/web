@@ -7,6 +7,8 @@ app.use(morgan('dev'));
 
 app.get('*', (req, res) => {
   res.sendFile(__dirname + '/index.html');
+//  let ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  //console.log(ip);
 })
 
 const PORT =  process.env.PORT || 3000;
