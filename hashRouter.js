@@ -21,7 +21,7 @@ class IndexView {
         if(0 < i < text.length - 1){
           let buffer = text.charAt(i);
           target.innerHTML +=  buffer ;
-          i++;
+          i++; 
           setTimeout(typer, 100);
         };
         if(i == text.length - 1){
@@ -47,7 +47,7 @@ class IndexView {
 
       window.addEventListener('mouseover', displayName(navHome, 'home'));
       window.addEventListener('mouseout', displayIcon(navHome, 'home'));
-      
+
 
     }
   }
