@@ -134,6 +134,7 @@ body {
 .intro * {
   margin: 0;
   padding: 0;
+  margin-top: 40px;
 
 }
 
@@ -143,11 +144,11 @@ body {
 }
 
 .intro ul {
-  position: absolute;
+  position: fixed;
   top :50%;
-  left: 50%;
+  left: 5%;
   transform: translate(-50%, -50%);
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -157,41 +158,47 @@ body {
 .intro ul li {
   margin: 0 5px;
   margin-left: 40px;
+  margin-top: 0px;
 }
 
 .intro ul li a .fa {
-  font-size: 60px;
+  font-size: 20px;
   color: black;
-  line-height: 100px;
+  line-height: 50px;
   transition: 0.4s;
-  padding-right: 18px;
+  padding-right: 10px;
   position: relative;
-  bottom: 9px;;
+  bottom: 9px;
 }
 
 .intro ul li a span {
   padding: 0;
-  margin: 0;
+  margin: 0px;
   position: absolute;
-  top: 30px;
+  top: 0px;
   letter-spacing: 4px;
   transition: 0.4s;
   color: black;
   font-family: monospace;
   font-weight: bold;
+  font-size: 12px;
 }
 .intro ul li a {
   text-decoration: none;
   display: block;
-  width: 210px;
-  height: 80px;
+  width: 100px;
+  height: 40px;
   background: white;
   text-align: left;
-  padding-left: 20px;
-  transform: rotate(-25deg) skewX(30deg) translate(0,0);
+  padding-left: 5px;
+  transform: rotate(-10deg) skewX(25deg) translate(0,0);
   transition: 0.4s;
   box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
-}
+  position: relative;
+  top:0%;
+
+
+  }
 
 .intro ul li a:before {
   content: '';
@@ -219,7 +226,7 @@ body {
 }
 
 .intro ul li a:hover {
-  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  transform: rotate(-10deg) skew(25deg) translate(20px, -5px);
   box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
 }
 
@@ -245,4 +252,10 @@ body {
 
 #pageChange {
   z-index: 10;
+}
+
+.container {
+  position: relative;
+  left: -25%;
+  bottom: -100%;
 }
