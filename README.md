@@ -1,2 +1,2 @@
-https://eth212.github.io/web/
+ethanbonnardeaux.ml
 Website is unfinished
