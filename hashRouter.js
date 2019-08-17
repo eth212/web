@@ -13,7 +13,7 @@ class IndexView {
   }
 
   loadContent(uri){
-    if(uri == home){
+    if(uri == "home"){
       var contentUri = "index.html";
     } else {
       var contentUri = `/pages/${uri}.html`;
