@@ -13,7 +13,7 @@ class IndexView {
   }
 
   loadContent(uri){
-    var contentUri = `${uri}.html`;
+    var contentUri = `/pages/${uri}.html`;
     console.log(contentUri);
     fetch(contentUri).then(r => r.text()).then(content => this.updateSlot(content));
   }
