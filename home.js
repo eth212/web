@@ -1,7 +1,6 @@
-let target = document.getElementById("typing");
+let target = document.getElementById("pageChange");
 let text = 'Hi, my name is Ethan and I am a Developer';
 let i=0;
-
 function typer(){
   if(i==0){
     target.innerHTML = '<h1>';
@@ -10,37 +9,15 @@ function typer(){
     let buffer = text.charAt(i);
     target.innerHTML +=  buffer ;
     i++;
-    setTimeout(typer, 100);
+    setTimeout(typer, 75);
   };
   if(i == text.length - 1){
     target.innerHTML += text.charAt(i) + '</h1>';
     i++;
-    setTimeout(typer, 100);
+    setTimeout(typer, 75);
   };
   return false;
-};
-var typeEffect = setTimeout(typer, 500);
-
-function changer(){
-  target.innerHTML = 'ehsuhglsfdihguidfshglifdshgiludh';
-  return false;
 }
 
 
-let navHome = document.getElementById("Home");
-let navAbout = document.getElementById("About");
-let navProjects = document.getElementById("Projects");
-let navContact = document.getElementById("Contact");
-
-function displayName(element, word){
-  element.innerHTML = 'word';
-}
-function displayIcon(element, icon){
-  element.innerHTML = `<i class="fa fa-${icon}" ></i>`;
-
-}
-
-
-window.addEventListener('mouseover', displayName(navHome, 'home'));
-window.addEventListener('mouseout', displayIcon(navHome, 'home'));
-window.document.onload = typer();
+window.document.onload = typer()
