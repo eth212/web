@@ -1,132 +1,4 @@
 
-* {
-  font-family:'Font Awesome\ 5 Free';
-}
-
-.circle h1 {
-  position: fixed;
-  left:17px;
-  top:-3px;
-  color: black;
-  left:17px;
-}
-
-
-.emblem{
-  font-family: 'Russo One', sans-serif;
-  font-size: 20px;
-  cursor: pointer;
-  transform: rotate(15deg);
-  transform: skewY(20deg);
-
-}
-
-
-.sidebar {
-  position: fixed;
-  left: 0px;
-  padding-bottom: 500px;
-  padding-top:300px;
-  top:0px;
-  background-color: rgba(200, 250, 200, 0.9);
-  opacity: 1;
-  padding-right: 115px;
-}
-
-.circle {
-  position: fixed;
-  border: 2px solid #f84342;
-  border-radius: 50%;
-  width: 90px;
-  height: 90px;
-  top:10px;
-  left:10px;
-}
-
-
-.navbar ul {
-  position: fixed;
-  top: 200px;
-  list-style-type: none;
-  letter-spacing: 1px;
-  line-height: 45px;
-  cursor: pointer;
-  margin: -25px;
-
-}
-
-.navbar a{
-  text-decoration: none;
-  color: black;
-  font-family: 'Hammersmith', sans-serif;
-}
-
-#bike {
-  position: fixed;
-  top: 550px;
-  height: 150px;;
-  width: 150px;
-  left:230px;
-}
-
-.line {
-  border-top: 6px solid black;
-  width: 1420px;
-  position: absolute;
-  left:115px;
-  top:698px;
-}
-
-#tree {
-  position: fixed;
-  top: 550px;
-  height: 150px;;
-  width: 150px;
-  left:680px;
-}
-
-#building {
-  position: fixed;
-  top: 495px;
-  height: 200px;;
-  width: 200px;
-  left:1230px;
-}
-
-#sun {
-  position: fixed;
-  top: 450px;
-  height: 100px;;
-  width: 100px;
-  left:430px;
-}
-
-#cloud {
-  position: fixed;
-  top: 450px;
-  height: 90px;;
-  width: 130px;
-  left:1050px;
-}
-
-#menu {
-  color:black;
-  font-family: "Special Elite", cursive;
-  size:68px;
-  cursor:default;
-}
-
-#typing{
-  position: absolute;
-  left: 200px;
-  color: red;
-}
-#view {
-  position: absolute;
-  left: 300px;
-  z-index: auto;
-}
-
 .intro * {
   margin: 0;
   padding: 0;
@@ -279,33 +151,18 @@
   background: rgba(200, 250, 200, 0.9);
 }
 
-.clicked {
-  background-color: orange;
-}
-
-
-#pageChange {
+#header {
+  background: green;
   z-index: 100;
-  position: absolute;
-  left:70px;
+}
+#display {
+  background: red;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
-.container {
-  position: relative;
-  left: -25%;
-  bottom: -100%;
-}
-
-body {
-  background-color: rgba(200, 250, 250, 0.5);
-  position: absolute;
-  left: 70px;
-}
-
-#testing {
-  background-color: red;
-}
-#maincol {
-  background-color:green;
-
+#animation {
+  background: purple;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
