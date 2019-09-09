@@ -1,5 +1,5 @@
 let target = document.getElementById("pageChange");
-let text = 'Hi, my name is Ethan and I am a Developer';
+let text = 'nullajgsghklfdhg';
 let i=0;
 function typer(){
   if(i==0){
