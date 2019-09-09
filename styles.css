@@ -168,8 +168,8 @@
   z-index: 99;
   margin-left: 30%;
   margin-top: 35%;
-
 }
+
 
 .intro ul li a span {
   padding: 0;
@@ -285,7 +285,9 @@
 
 
 #pageChange {
-  z-index: 10;
+  z-index: 100;
+  position: absolute;
+  left:70px;
 }
 
 .container {
@@ -300,6 +302,10 @@ body {
   left: 70px;
 }
 
-#rows {
+#testing {
   background-color: red;
+}
+#maincol {
+  background-color:green;
+
 }
