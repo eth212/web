@@ -28,7 +28,7 @@
 
 .intro ul li {
   margin: 0 5px;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 0px;
 }
 
@@ -198,16 +198,13 @@
 }
 #display {
   background: red;
-  padding-top: 23%;
-  padding-bottom: 23%;
-  padding-right:
+
 
 }
 
 #animation {
   background: purple;
-  padding-top: 25%;
-  padding-bottom: 25%;
+
 }
 
 .color {
