@@ -2,8 +2,9 @@
 .intro * {
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 40%;
   margin-left: 0px;
+  z-index:101;
 
 }
 
@@ -26,7 +27,7 @@
 
 .intro ul li {
   margin: 0 5px;
-  margin-left: 40px;
+  margin-left: 10%;
   margin-top: 0px;
 }
 
@@ -47,7 +48,7 @@
   padding: 0;
   margin: 0px;
   margin-left: -55%;
-  margin-top: 40px;
+  margin-top: 40%;
   position: absolute;
   top: 0px;
   letter-spacing: 4px;
@@ -157,12 +158,17 @@
 }
 #display {
   background: red;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+
 }
 
 #animation {
   background: purple;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 27%;
+  padding-bottom: 27%;
+}
+
+.color {
+  background: orange;
 }
