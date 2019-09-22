@@ -24,6 +24,8 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
+  transition: 0.4s;
+
 }
 
 .intro ul li {
@@ -34,7 +36,7 @@
 
 .intro ul li a .fa {
   font-size: 25px;
-  color: black;
+  color: salmon;
   line-height: 50px;
   transition: 0.4s;
   position: relative;
@@ -54,19 +56,21 @@
   top: 0px;
   letter-spacing: 4px;
   transition: 0.4s;
-  color: black;
+  color: salmon;
   font-family: monospace;
   font-weight: bold;
   font-size: 12px;
   z-index: 100;
   transform: rotate(0deg) skewX(-45deg) translate(0,0);
+  transition: 0.4s;
+
 }
 .intro ul li a {
   text-decoration: none;
   display: block;
   width: 100px;
   height: 40px;
-  background: white;
+  background: rgb(255,200,155);
   text-align: left;
   padding-left: 5px;
   transform: rotate(-10deg) skewX(25deg) translate(0,0);
@@ -74,6 +78,7 @@
   box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
   position: relative;
   top:0%;
+  transition: 0.4s;
 
 
   }
@@ -85,8 +90,8 @@
   left: -20px;
   height: 100%;
   width: 20px;
-  background: #b1b1b1;
-  transform: 0.2s;
+  background: rgb(255,200,155);
+  transform: 0.4s;
   transform: rotate(0deg) skewY(-45deg);
 }
 
@@ -97,8 +102,8 @@
   left: -10px;
   height: 20px;
   width: 100%;
-  background: #b1b1b1;
-  transform: 0.2s;
+  background: rgb(255,200,155);
+  transform: 0.4s;
   transform: rotate(0deg) skewX(-45deg);
 
 }
@@ -136,6 +141,7 @@
     width: 70px;
     height: 30px;
     left:-15px;
+
   }
 
 
@@ -144,51 +150,55 @@
 .intro ul li a:hover {
   transform: rotate(-10deg) skew(25deg) translate(20px, -5px);
   box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+
 }
 
 .intro ul li:hover .fa{
-  color:red;
+  color:rgb(255,200,155);
 }
 
 .intro ul li:hover span {
-  color:red;
+  color:black;
 }
 
 .intro ul li:hover a{
-  background: rgba(200, 250, 200, 0.9);
+  background: salmon;
 }
 
 .intro ul li:hover a:before{
-  background: rgba(200, 250, 200, 0.9);
+  background: salmon;
 }
 
 .intro ul li:hover a:after {
-  background: rgba(200, 250, 200, 0.9);
+  background: salmon;
 }
 
 .intro ul li a:focus {
   transform: rotate(-10deg) skew(25deg) translate(20px, -5px);
   box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+
 }
 
 .intro ul li:focus .fa{
-  color:red;
+  color:salmon;
 }
 
 .intro ul li:focus span {
-  color:red;
+  color:salmon;
 }
 
 .intro ul li:focus a{
-  background: rgba(200, 250, 200, 0.9);
+  background: salmon;
 }
 
 .intro ul li:focus a:before{
-  background: rgba(200, 250, 200, 0.9);
+  background: salmon;
 }
 
 .intro ul li:focus a:after {
-  background: rgba(200, 250, 200, 0.9);
+  background: salmon;
 }
 
 #header {
@@ -199,18 +209,20 @@
 #display {
   background: red;
   margin-right: 15px;
+  padding-top: 30%;
+  padding-bottom: 30%;
 
 }
 
 #animation {
-  background: purple;
+  background: salmon;
   margin-right: 15px;
 }
 
 .color {
-  background: orange;
-  padding-top: 50%;
-  padding-bottom:50%;
+  background-image: linear-gradient(to right, rgb(255,200,155), salmon);
+  padding-top: 10%;
+  padding-bottom:10%;
 }
 body {
   margin:0;

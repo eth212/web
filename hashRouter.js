@@ -1,7 +1,7 @@
 class IndexView {
   constructor(){
     window.addEventListener("hashchange", e => this.onRouteChange(e));
-    this.slot = document.querySelector('#pageChange');
+    this.slot = document.getElementById("display");
   }
   onRouteChange(e) {
     var target;

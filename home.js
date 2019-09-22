@@ -1,6 +1,7 @@
-let target = document.getElementById("pageChange");
-let text = 'nullajgsghklfdhg';
+let target = document.getElementById("animation");
+let text = 'Hey, Im ethan welcome to my website';
 let i=0;
+
 function typer(){
   if(i==0){
     target.innerHTML = '<h1>';
@@ -20,4 +21,4 @@ function typer(){
 }
 
 
-window.document.onload = typer()
+window.document.onload = typer();
