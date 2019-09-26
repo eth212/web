@@ -247,3 +247,7 @@ html,body
 .centered{
   margin-left: 35%;
 }
+
+.diagram{
+  height : 200px;
+}
