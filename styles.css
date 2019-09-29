@@ -251,3 +251,9 @@ html,body
 .diagram{
   height : 200px;
 }
+
+.about1 {
+  background: rgb(255,200,155);
+  padding: 2%;
+  border-radius: 30%;
+}
