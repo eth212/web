@@ -29,12 +29,16 @@ window.addEventListener("load", () => {
 });
 window.addEventListener("hashchange", () => {
   e += 1;
+});
+window.addEventListener("beforeload", () => {
+  window.scrollTo(0, 0);
 })
 
 class IndexView {
   constructor(){
     window.addEventListener("hashchange", e => this.onRouteChange(e));
     this.slot = document.getElementById("display");
+    window.scrollTo(0, 0);
   }
   onRouteChange(e) {
     var target;

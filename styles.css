@@ -281,10 +281,15 @@ html,body
 
 .uri {
   margin-left: 20%;
-
+  color: salmon;
 }
 
 .about3{
   margin-top: 20px;
 
+
+}
+
+.about body {
+  height: 100%;
 }
