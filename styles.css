@@ -256,7 +256,7 @@ html,body
   color: salmon;
   padding: 6%;
   border-style: solid;
-  margin-top: 10%;
+  margin-top: 50px;
   border-width: 0.5px;
 
 }
@@ -266,7 +266,7 @@ html,body
 }
 
 .about2 {
-  margin-top: 10%;
+  margin-top: 50px;
   color: salmon;
   background: white;
   padding: 2%;
@@ -280,11 +280,11 @@ html,body
 }
 
 .uri {
-  margin-left: 20%
+  margin-left: 20%;
 
 }
 
 .about3{
-  margin-top: 20%;
-  left: 70px;
+  margin-top: 20px;
+
 }
