@@ -253,7 +253,38 @@ html,body
 }
 
 .about1 {
-  background: rgb(255,200,155);
+  color: salmon;
+  padding: 6%;
+  border-style: solid;
+  margin-top: 10%;
+  border-width: 0.5px;
+
+}
+
+.about1 p{
+  margin-left: 10px;
+}
+
+.about2 {
+  margin-top: 10%;
+  color: salmon;
+  background: white;
   padding: 2%;
-  border-radius: 30%;
+  border-style: solid;
+  border-width: 0.5px;
+
+}
+
+.about2 p{
+  margin-left: 10px;
+}
+
+.uri {
+  margin-left: 20%
+
+}
+
+.about3{
+  margin-top: 20%;
+  left: 70px;
 }

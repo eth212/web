@@ -41,7 +41,9 @@ class IndexView {
     const hashLocation = window.location.hash.substring(1);
     console.log(hashLocation);
 
-    document.getElementById("animation").innerHTML = "<h1>" + hashLocation + "<h1>";
+    let animation = document.getElementById("animation")
+    animation.innerHTML = "<h1>" + hashLocation + "<h1>";
+    animation.classList.add("uri")
   //  target = document.getElementById(hashLocation);
     //setTimeout(() => {target.classList.add("clicked")},20 )
 
