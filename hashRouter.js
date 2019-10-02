@@ -1,5 +1,5 @@
 let target = document.getElementById("animation");
-let text = 'Hey, Im ethan welcome to my website';
+let text = 'Hey,          Im       ethan                   welcome     to      my      website';
 let i=0;
 let e = 0;
 
@@ -10,7 +10,7 @@ var scrollTop = function() {
 
 function typer(){
   if(i==0){
-    target.innerHTML = '<h1>';
+    target.innerHTML = '<h1 class= \"title"\ >';
   };
   if(0 < i < text.length - 1){
     if( e == 0){
@@ -34,9 +34,17 @@ window.addEventListener("load", () => {
 window.addEventListener("hashchange", () => {
   e += 1;
 });
-window.addEventListener("beforeload", () => {
+window.addEventListener("load", () => {
   window.scrollTo(0, 0);
+});
+
+window.addEventListener("load", () => {
+  typer();
+  setTimeout(function () {fetch("/pages/home.html").then( r => r.text()).then(content => target.innerHTML += content)}, 3100);
 })
+
+
+
 
 class IndexView {
   constructor(){

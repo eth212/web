@@ -294,9 +294,23 @@ html,body
 }
 
 .list  li{
+  margin-left: 3%;
   display : inline-block;
+  padding: 30px;
+  color:  white;
+  margin-top:10%;
+
 }
 
-.list li:active {
-  .background: red;
+.icon {
+  color: black;
+}
+
+.icon:hover {
+  color: salmon;
+}
+
+.title {
+  color: salmon;
+  font-size: 10px;
 }
