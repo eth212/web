@@ -292,3 +292,11 @@ html,body
 
 
 }
+
+.list  li{
+  display : inline-block;
+}
+
+.list li:active {
+  .background: red;
+}
