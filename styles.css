@@ -110,6 +110,14 @@
 
 @media only screen and (max-width: 500px) {
 
+
+  .title {
+    font-size: 20px;
+  }
+
+  .list {
+    font-size: 20px;
+  }
   .intro ul li a .fa {
     font-size: 25px;
     top: -32.5px;
@@ -299,6 +307,7 @@ html,body
   padding: 30px;
   color:  white;
   margin-top:10%;
+  font-size: 40px;
 
 }
 
@@ -312,5 +321,5 @@ html,body
 
 .title {
   color: salmon;
-  font-size: 10px;
+  font-size: 40px;
 }

@@ -10,7 +10,8 @@ var scrollTop = function() {
 
 function typer(){
   if(i==0){
-    target.innerHTML = '<h1 class= \"title"\ >';
+    target.classList.add("title");
+    target.innerHTML = '<h1>';
   };
   if(0 < i < text.length - 1){
     if( e == 0){
@@ -50,7 +51,7 @@ class IndexView {
   constructor(){
     window.addEventListener("hashchange", e => this.onRouteChange(e));
     this.slot = document.getElementById("display");
-    scrollTop.then(console.log("scroll worked"));
+    scrollTop;
   }
   onRouteChange(e) {
     var target;
