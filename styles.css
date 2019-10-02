@@ -112,11 +112,12 @@
 
 
   .title {
-    font-size: 20px;
+    font-size: 10px;
   }
 
-  .list {
-    font-size: 20px;
+  .list li{
+    font-size: 10px;
+    padding : 0px;
   }
   .intro ul li a .fa {
     font-size: 25px;
@@ -321,5 +322,5 @@ html,body
 
 .title {
   color: salmon;
-  font-size: 40px;
+  font-size: 30px;
 }
