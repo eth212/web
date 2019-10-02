@@ -3,6 +3,10 @@ let text = 'Hey, Im ethan welcome to my website';
 let i=0;
 let e = 0;
 
+var scrollTop = function() {
+    window.scrollTo(0, 0);
+};
+
 
 function typer(){
   if(i==0){
@@ -38,7 +42,7 @@ class IndexView {
   constructor(){
     window.addEventListener("hashchange", e => this.onRouteChange(e));
     this.slot = document.getElementById("display");
-    window.scrollTo(0, 0);
+    scrollTop.then(console.log("scroll worked"));
   }
   onRouteChange(e) {
     var target;

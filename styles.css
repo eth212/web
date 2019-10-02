@@ -211,7 +211,7 @@
 #display {
   background: white;
   margin-right: 15px;
-  padding-bottom: 500px;
+
 
 
 }
@@ -288,8 +288,4 @@ html,body
   margin-top: 20px;
 
 
-}
-
-.about body {
-  height: 100%;
 }
