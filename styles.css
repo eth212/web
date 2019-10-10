@@ -111,52 +111,52 @@
 @media only screen and (max-width: 500px) {
 
 
-  .title {
-    font-size: 10px;
-  }
+    .title {
+      font-size: 10px;
+    }
 
-  .list li{
-    font-size: 10px;
-    padding : 0px;
-  }
-  .intro ul li a .fa {
-    font-size: 25px;
-    top: -32.5px;
-    right: 0px;
-  }
+    .list li{
+      font-size: 10px;
+      padding : 0px;
+    }
+    .intro ul li a .fa {
+      font-size: 25px;
+      top: -32.5px;
+      right: 0px;
+    }
 
-  .intro ul li a:before{
-    top: 8px;
-    left: -15px;
-    width:15px;
-    height:30px;
+    .intro ul li a:before{
+      top: 8px;
+      left: -15px;
+      width:15px;
+      height:30px;
+    }
+
+    .intro ul li a span{
+      letter-spacing:2px;
+      font-size: 10px;
+      margin-top: 30px;
+      margin-left: -50px;
+    }
+
+    .intro ul li a:after {
+      bottom: -15px;
+      left: -7px;
+      height: 15px;
+      width: 70px;
+    }
+
+    .intro ul li a {
+      width: 70px;
+      height: 30px;
+      left:-15px;
+
+    }
+
+  #animation{
+    padding-bottom: 40px;
+    margin-left: 20px;
   }
-
-  .intro ul li a span{
-    letter-spacing:2px;
-    font-size: 10px;
-    margin-top: 30px;
-    margin-left: -50px;
-  }
-
-  .intro ul li a:after {
-    bottom: -15px;
-    left: -7px;
-    height: 15px;
-    width: 70px;
-  }
-
-  .intro ul li a {
-    width: 70px;
-    height: 30px;
-    left:-15px;
-
-  }
-
-#animation{
-  padding-bottom: 40px;
-  margin-left: 20px;
-}
 
 
 }
