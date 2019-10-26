@@ -354,3 +354,30 @@ html,body
 #list {
   margin-top: 250px;
 }
+
+.img {
+  width: 600px;
+  height :400px;
+
+}
+
+.diagram h6{
+  margin-top: 0px;
+}
+
+.PF {
+  margin-top: 300px;
+}
+
+.git {
+  color: salmon;
+  font-size: 20;
+}
+
+.tech {
+  color: salmon;
+}
+
+.biog {
+  margin-top: 40px;
+}
