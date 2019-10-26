@@ -113,11 +113,20 @@
 
     .title {
       font-size: 10px;
+      margin-left: 100px;
+    }
+    .list {
+      margin-left: 150px;
+      margin-top: -250px;
+    }
+
+    .list ul{
+      bottom : 100px;
     }
 
     .list li{
-      font-size: 10px;
-      padding : 0px;
+      padding : 1px;
+
     }
     .intro ul li a .fa {
       font-size: 25px;
@@ -154,11 +163,15 @@
     }
 
   #animation{
-    padding-bottom: 40px;
-    margin-left: 20px;
+    padding: 00px;
+    margin-left: 150px;
+    top: -120px;
+    z-index: 1001;
   }
-
-
+  #display{
+    margin-top: -250px;
+    padding: 0px;
+  }
 }
 
 .intro ul li a:hover {
@@ -223,8 +236,8 @@
 #display {
   background: white;
   margin-right: 15px;
-
-
+  top: 00px;
+  margin-top: -200px;
 
 }
 
@@ -232,6 +245,10 @@
   background: white;
   margin-right: 15px;
   padding: 00px;
+  padding-bottom: 0px;
+  margin-left: 300px;
+  z-index: 1002;
+
 }
 
 .color {
@@ -298,8 +315,10 @@ html,body
 
 .about3{
   margin-top: 20px;
+}
 
-
+.about {
+  font-size: 20px;
 }
 
 .list  li{
@@ -323,4 +342,15 @@ html,body
 .title {
   color: salmon;
   font-size: 30px;
+  left: -150px;
+}
+
+.list{
+  padding-top: 00px;
+  margin-right: 200px;
+
+}
+
+#list {
+  margin-top: 250px;
 }

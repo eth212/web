@@ -1,49 +1,58 @@
-let target = document.getElementById("animation");
-let text = 'Hey,          Im       ethan                   welcome     to      my      website';
+let target = document.getElementById("display");
+let anim = document.getElementById("animation");
+let list = document.getElementById("list");
+let text = 'Hey,  Im  ethan  welcome  to  my  website';
 let i=0;
 let e = 0;
+let timer = false;
 
 var scrollTop = function() {
     window.scrollTo(0, 0);
 };
 
-
+// make non recursive
 function typer(){
   if(i==0){
-    target.classList.add("title");
-    target.innerHTML = '<h1>';
+    anim.classList.add("title");
+    anim.innerHTML = '<h1>';
   };
   if(0 < i < text.length - 1){
     if( e == 0){
       let buffer = text.charAt(i);
-      target.innerHTML +=  buffer ;
+      anim.innerHTML +=  buffer ;
       i++;
       setTimeout(typer, 75);
     }
   };
   if(i == text.length - 1){
-    target.innerHTML += text.charAt(i) + '</h1>';
+    anim.innerHTML += text.charAt(i) + '</h1>';
     i++;
     setTimeout(typer, 75);
   };
   return false;
 };
-window.addEventListener("load", () => {typer()});
+
+
+function placeLetter(letter){
+   anim.innerHTML += letter;
+};
+
+
 window.addEventListener("load", () => {
   window.location.href = "#home";
 });
-window.addEventListener("hashchange", () => {
-  e += 1;
-});
+
 window.addEventListener("load", () => {
   window.scrollTo(0, 0);
 });
 
+window.addEventListener("load",()=> {
+  fetch("/pages/home.html").then( r => r.text()).then(content => target.innerHTML += content);
+});
+
 window.addEventListener("load", () => {
   typer();
-  setTimeout(function () {fetch("/pages/home.html").then( r => r.text()).then(content => target.innerHTML += content)}, 3100);
-})
-
+});
 
 
 
@@ -65,6 +74,7 @@ class IndexView {
     //setTimeout(() => {target.classList.add("clicked")},20 )
 
     //this.hoverIcon(hashLocation);
+
     this.loadContent(hashLocation);
 
   }
