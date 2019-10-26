@@ -1,7 +1,7 @@
 let target = document.getElementById("display");
 let anim = document.getElementById("animation");
 let list = document.getElementById("list");
-let text = ' Hey,  Im  ethan  welcome  to  my  website';
+let text = '          Hey,  Im  ethan  welcome  to  my  website';
 let i=0;
 let e = 0;
 let timer = false;
